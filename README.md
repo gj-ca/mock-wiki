@@ -1,15 +1,23 @@
-## First things first
+## First Layer of Content
 
-**Before You Continue:** You'll need to have done the intro to HTML and CSS 
+Now that we have our starting tags, let's start adding some visual content for our user to see. Let's use a random wiki page and use that for inspiration. 
 
-Lets think about some examples for static web pages that flex our html muscles. How about a mock Wikipedia article? Its just going to be a static webpage that is more informative than stylish, we can ignore the sidebars for now and just focus on the actual article.
+Go to the random section [here](https://en.wikipedia.org/wiki/Special:Random). If your random page is sparse you can randomize again. 
 
-At the moment our index.html page is completely empty. What are the important tags that our webpage needs **BEFORE** rendering anything on our site?
+Lets add a heading and a paragraph inside our body and fill it in with the name and first paragraph of content from your random wiki page.
 
-We need to declare the `<DOCTYPE>`, which tells the browser how to interpret the information we're giving it.
+---
 
-We also need the `<html>`, it is inside this `<html>` tag where we will be writing the rest of our code.
+Next thing we want is that list of contents, if your page doesn't have a contents list just find another that does.
 
-Inside the `<html>` we are going to add a `<head>` and `<body>` tag. Remember that the `<head>` stores metadata and important references to things like scripts and stylesheets but we won't be using those right now, and that the `<body>` is where we will be writing the html that the user sees on their browser.
+Our contents is an ordered list, some list items have their own lists within them
 
-Update your index.html so that you have these important tags. Cross-check with the solution once you believe you are done.
+![wiki contents](./readme_images/Untitled.png)
+
+Underneath your first heading and paragraph start by creating an ordered list and populating that list with some of the contents from your wiki page. If you have nested lists (a list within a list, like in the image above) you will notice that in your Web Preview your nested list begins at 1 it doesn't do 2.1 or 2.2, this is fine and normal HTML behaviour.
+
+---
+
+Once you've added those, cross check with the solution to see if you have the same basic structure. The contents will be the different, but the basic structure should be the same.
+
+
