@@ -1,13 +1,15 @@
-# HTML & CSS Extra Challenges
+## First things first
 
-## Before You Continue
-This activity relies on a basic understanding of git branching. A good place to learn some basics is [this helpful guide](https://www.hostinger.com/tutorials/how-to-use-git-branches/). 
+**Before You Continue:** You'll need to have done the intro to HTML and CSS 
 
-A common "gotcha" that new learners make is forgetting to **add** and **commit** before switching branches, if you forget to do this your changes will move from the old branch to the new branch, which is **NOT** what you want.
+Lets think about some examples for static web pages that flex our html muscles. How about a mock Wikipedia article? Its just going to be a static webpage that is more informative than stylish, we can ignore the sidebars for now and just focus on the actual article.
 
-## How to start
-You'll notice that there are no files or challenges at the moment. Each one of these challenges are separated by a branch in git and will be released periodically, you are currently in the master branch and can switch to the first challenge by running the command `git checkout -b first-branch` in your terminal inside this git repository.
+At the moment our index.html page is completely empty. What are the important tags that our webpage needs **BEFORE** rendering anything on our site?
 
-Once you have switched branches, you need to run the command `git pull origin first-branch`, what we are doing is downloading everything from the 'first-branch' branch on the github repository, we've named the github branch and your local branch the same name to reduce some confusion. After you've done that, you'll be able to see a new markdown file with the next instructions.
+We need to declare the `<DOCTYPE>`, which tells the browser how to interpret the information we're giving it.
 
-Remember that if you forget what to do after switching branches, you can run the command `git checkout master` to come back to this branch.
+We also need the `<html>`, it is inside this `<html>` tag where we will be writing the rest of our code.
+
+Inside the `<html>` we are going to add a `<head>` and `<body>` tag. Remember that the `<head>` stores metadata and important references to things like scripts and stylesheets but we won't be using those right now, and that the `<body>` is where we will be writing the html that the user sees on their browser.
+
+Update your index.html so that you have these important tags. Cross-check with the solution once you believe you are done.
